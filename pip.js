@@ -7,7 +7,7 @@ function onRequestHandler(){
 
        const data = JSON.parse(this.response);
         const HTMLResponse = document.querySelector("#app");
-        const tpl = data.map(user =>`<li> ${user.name}</li> <li>${user.company.name}</li>`);
+        const tpl = data.map(user =>`<li> ${user.name}  ${user.company.name}</li>`);
        HTMLResponse.innerHTML = `<ul> ${tpl} </ul>`;
        console.log(data);
     }
