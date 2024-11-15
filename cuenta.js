@@ -1,4 +1,4 @@
-alert("cuenta");
+
 const cuentaMsql = "http://localhost:8080/cuenta"
 
 const pip = new XMLHttpRequest();
