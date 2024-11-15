@@ -1,4 +1,4 @@
-alert("pip");
+
 const apiUrl = "https://jsonplaceholder.typicode.com"
 
 const xhr = new XMLHttpRequest();
